@@ -1,0 +1,3 @@
+D:\GlobalGamejam2022\GGJ2022\GGJ2022Game\Intermediate\Build\Win64\UE4Editor\Development\GGJ2022Game\Definitions.GGJ2022Game.h
+D:\GlobalGamejam2022\GGJ2022\GGJ2022Game\Source\GGJ2022Game\GGJPlayerController.h
+D:\GlobalGamejam2022\GGJ2022\GGJ2022Game\Intermediate\Build\Win64\UE4Editor\Inc\GGJ2022Game\GGJPlayerController.generated.h

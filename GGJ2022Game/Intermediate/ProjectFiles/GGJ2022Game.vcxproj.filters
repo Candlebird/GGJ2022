@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\GGJ2022Game.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{AD4B9FAB-DBB7-494F-96CD-132DF9373415}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\GGJ2022Game.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\GGJ2022GameEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{E53B2A95-0264-4405-8B33-14D23CA0782A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGameplayTags.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\GGJ2022Game">
+      <UniqueIdentifier>{83B77E4F-ECB6-4EFF-BE19-05495FF8317B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\GGJ2022Game\GGJ2022Game.Build.cs">
+      <Filter>Source\GGJ2022Game</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\GGJ2022Game\GGJ2022Game.cpp">
+      <Filter>Source\GGJ2022Game</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GGJ2022Game\GGJ2022Game.h">
+      <Filter>Source\GGJ2022Game</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GGJ2022Game\GGJ2022GameCharacter.cpp">
+      <Filter>Source\GGJ2022Game</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GGJ2022Game\GGJ2022GameCharacter.h">
+      <Filter>Source\GGJ2022Game</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GGJ2022Game\GGJ2022GameGameMode.cpp">
+      <Filter>Source\GGJ2022Game</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GGJ2022Game\GGJ2022GameGameMode.h">
+      <Filter>Source\GGJ2022Game</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GGJ2022Game\GGJ2022GameHUD.cpp">
+      <Filter>Source\GGJ2022Game</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GGJ2022Game\GGJ2022GameHUD.h">
+      <Filter>Source\GGJ2022Game</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GGJ2022Game\GGJ2022GameProjectile.cpp">
+      <Filter>Source\GGJ2022Game</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GGJ2022Game\GGJ2022GameProjectile.h">
+      <Filter>Source\GGJ2022Game</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GGJ2022Game\GGJPlayerController.cpp">
+      <Filter>Source\GGJ2022Game</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GGJ2022Game\GGJPlayerController.h">
+      <Filter>Source\GGJ2022Game</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

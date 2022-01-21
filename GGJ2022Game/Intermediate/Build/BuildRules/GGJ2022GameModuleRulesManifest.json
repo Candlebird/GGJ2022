@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\GlobalGamejam2022\\GGJ2022\\GGJ2022Game\\Source\\GGJ2022Game\\GGJ2022Game.Build.cs",
+		"D:\\GlobalGamejam2022\\GGJ2022\\GGJ2022Game\\Source\\GGJ2022Game.Target.cs",
+		"D:\\GlobalGamejam2022\\GGJ2022\\GGJ2022Game\\Source\\GGJ2022GameEditor.Target.cs"
+	],
+	"EngineVersion": "4.27.2"
+}

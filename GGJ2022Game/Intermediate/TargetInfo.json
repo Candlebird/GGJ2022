@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "GGJ2022Game",
+			"Path": "D:\\GlobalGamejam2022\\GGJ2022\\GGJ2022Game\\Source\\GGJ2022Game.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "GGJ2022GameEditor",
+			"Path": "D:\\GlobalGamejam2022\\GGJ2022\\GGJ2022Game\\Source\\GGJ2022GameEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
