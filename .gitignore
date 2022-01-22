@@ -72,3 +72,6 @@ GGJ2022Game/Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 GGJ2022Game/DerivedDataCache/*
+
+# Exporte Directories
+GGJ2022Game/WindowsNoEditor/*
