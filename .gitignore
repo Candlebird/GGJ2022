@@ -72,3 +72,9 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+GGJ2022Game/Saved/
+
+GGJ2022Game/Intermediate/
+
+GGJ2022Game/Binaries/
