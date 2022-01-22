@@ -1,9 +1,0 @@
-D:\GlobalGamejam2022\GGJ2022\GGJ2022Game\Intermediate\Build\Win64\UE4Editor\Development\GGJ2022Game\Definitions.GGJ2022Game.h
-D:\GameLaunchers\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-D:\GameLaunchers\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-D:\GlobalGamejam2022\GGJ2022\GGJ2022Game\Source\GGJ2022Game/GGJ2022GameGameMode.h
-D:\GameLaunchers\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
-D:\GameLaunchers\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
-D:\GameLaunchers\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
-D:\GameLaunchers\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
-D:\GlobalGamejam2022\GGJ2022\GGJ2022Game\Intermediate\Build\Win64\UE4Editor\Inc\GGJ2022Game\GGJ2022GameGameMode.generated.h
