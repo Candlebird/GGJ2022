@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeGGJ2022Game_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x7B93AA82,
+				0xFE4122BC,
 				0x07919158,
 				METADATA_PARAMS(nullptr, 0)
 			};

@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\GGJ2022Game.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{AD4B9FAB-DBB7-494F-96CD-132DF9373415}</UniqueIdentifier>
+      <UniqueIdentifier>{29679A7A-E3A7-4FBB-B5BD-9412387C82AD}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GGJ2022Game.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{E53B2A95-0264-4405-8B33-14D23CA0782A}</UniqueIdentifier>
+      <UniqueIdentifier>{AE8040AE-BEFF-40EA-83A1-E28E2206891E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -33,7 +33,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\GGJ2022Game">
-      <UniqueIdentifier>{83B77E4F-ECB6-4EFF-BE19-05495FF8317B}</UniqueIdentifier>
+      <UniqueIdentifier>{184D8F91-2834-44BB-BC7D-B220E167DAFE}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GGJ2022Game\GGJ2022Game.Build.cs">
       <Filter>Source\GGJ2022Game</Filter>

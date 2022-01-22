@@ -82,6 +82,8 @@ AGGJ2022GameCharacter::AGGJ2022GameCharacter()
 
 	// Uncomment the following line to turn motion controllers on by default:
 	//bUsingMotionControllers = true;
+
+	Health = 3;
 }
 
 void AGGJ2022GameCharacter::BeginPlay()

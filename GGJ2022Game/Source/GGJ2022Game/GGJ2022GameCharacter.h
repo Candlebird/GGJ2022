@@ -86,6 +86,10 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
 	uint8 bUsingMotionControllers : 1;
 
+	/** Used for storing health values */
+	UPROPERTY(VisibleAnywhere, Category = "Variables")
+	int Health;
+
 protected:
 	
 	/** Fires a projectile. */
