@@ -2225,3 +2225,771 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.01.22-00.46.42:088][405]LogUObjectHash: Compacting FUObjectHashTables data took   4.35ms
 [2022.01.22-00.46.42:154][406]Cmd: SELECT NONE
 [2022.01.22-00.46.42:173][406]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2022.01.22-01.31.19:789][844]LogTemp: Repeating last play command: Selected Viewport
+[2022.01.22-01.31.19:795][844]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.01.22-01.31.19:795][844]PIE: New page: PIE session: FirstPersonExampleMap (Jan 21, 2022, 11:31:19 AM)
+[2022.01.22-01.31.19:817][844]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.01.22-01.31.19:834][844]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016548s)
+[2022.01.22-01.31.19:835][844]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2022.01.22-01.31.19:836][844]LogPlayLevel: PIE: World Init took: (0.002263s)
+[2022.01.22-01.31.19:836][844]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.019083s)
+[2022.01.22-01.31.19:907][844]LogUObjectHash: Compacting FUObjectHashTables data took   6.55ms
+[2022.01.22-01.31.19:915][844]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2022.01.22-01.31.19:915][844]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.01.22-01.31.19:915][844]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.01.22-01.31.19:915][844]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.01.22-01.31.19:915][844]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.01.22-01.31.19:915][844]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.01.22-01.31.19:915][844]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.01.22-01.31.19:915][844]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.01.22-01.31.19:915][844]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.01.22-01.31.19:916][844]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.01.22-01.31.19:916][844]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.01.22-01.31.19:916][844]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.01.22-01.31.19:916][844]LogAudioMixer: Display: Initializing audio mixer.
+[2022.01.22-01.31.19:929][844]LogAudioMixer: Display: 0: FrontLeft
+[2022.01.22-01.31.19:929][844]LogAudioMixer: Display: 1: FrontRight
+[2022.01.22-01.31.19:982][844]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2022.01.22-01.31.19:983][844]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.01.22-01.31.19:983][844]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.01.22-01.31.19:984][844]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.01.22-01.31.19:985][844]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.01.22-01.31.19:985][844]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.01.22-01.31.19:985][844]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.01.22-01.31.19:987][844]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.01.22-01.31.19:987][844]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.01.22-01.31.19:987][844]LogInit: FAudioDevice initialized.
+[2022.01.22-01.31.19:987][844]LogAudio: Display: Audio Device (ID: 12) registered with world 'FirstPersonExampleMap'.
+[2022.01.22-01.31.20:007][844]LogLoad: Game class is 'GGJ_GM_C'
+[2022.01.22-01.31.20:011][844]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2022.01.21-18.31.20
+[2022.01.22-01.31.20:011][844]LogWorld: Bringing up level for play took: 0.003060
+[2022.01.22-01.31.20:011][844]LogOnline: OSS: Creating online subsystem instance for: :Context_21
+[2022.01.22-01.31.20:014][844]PIE: Server logged in
+[2022.01.22-01.31.20:016][844]PIE: Play in editor total start time 0.221 seconds.
+[2022.01.22-01.31.20:018][844]LogAutoSettingsInput: Registering input overrides for DESKTOP-6DAELIS-A1D5
+[2022.01.22-01.31.20:018][844]LogAutoSettingsInput: Saving input overrides for DESKTOP-6DAELIS-A1D5
+[2022.01.22-01.31.41:352][394]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2022.01.22-01.31.41:352][394]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2022.01.22-01.31.41:352][394]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2022.01.22-01.31.46:430][  0]LogAutoSettings: Applying setting GameAudio.Volume with value: 0.868509, prevous: 1
+[2022.01.22-01.31.46:431][  0]LogAutoSettings: Applying setting GameAudio.Volume with value: 0.889741, prevous: 0.868509
+[2022.01.22-01.31.46:439][  1]LogAutoSettings: Applying setting GameAudio.Volume with value: 0.868509, prevous: 0.889741
+[2022.01.22-01.31.46:440][  1]LogAutoSettings: Applying setting GameAudio.Volume with value: 0.836663, prevous: 0.868509
+[2022.01.22-01.31.46:449][  2]LogAutoSettings: Applying setting GameAudio.Volume with value: 0.826047, prevous: 0.836663
+[2022.01.22-01.31.46:449][  2]LogAutoSettings: Applying setting GameAudio.Volume with value: 0.804817, prevous: 0.826047
+[2022.01.22-01.31.46:458][  3]LogAutoSettings: Applying setting GameAudio.Volume with value: 0.783585, prevous: 0.804817
+[2022.01.22-01.31.46:467][  4]LogAutoSettings: Applying setting GameAudio.Volume with value: 0.741124, prevous: 0.783585
+[2022.01.22-01.31.46:475][  5]LogAutoSettings: Applying setting GameAudio.Volume with value: 0.688046, prevous: 0.741124
+[2022.01.22-01.31.46:483][  6]LogAutoSettings: Applying setting GameAudio.Volume with value: 0.6562, prevous: 0.688046
+[2022.01.22-01.31.46:491][  7]LogAutoSettings: Applying setting GameAudio.Volume with value: 0.634969, prevous: 0.6562
+[2022.01.22-01.31.46:500][  8]LogAutoSettings: Applying setting GameAudio.Volume with value: 0.603122, prevous: 0.634969
+[2022.01.22-01.31.46:508][  9]LogAutoSettings: Applying setting GameAudio.Volume with value: 0.592507, prevous: 0.603122
+[2022.01.22-01.31.46:516][ 10]LogAutoSettings: Applying setting GameAudio.Volume with value: 0.571276, prevous: 0.592507
+[2022.01.22-01.31.46:525][ 11]LogAutoSettings: Applying setting GameAudio.Volume with value: 0.560661, prevous: 0.571276
+[2022.01.22-01.31.46:533][ 12]LogAutoSettings: Applying setting GameAudio.Volume with value: 0.550045, prevous: 0.560661
+[2022.01.22-01.31.46:542][ 13]LogAutoSettings: Applying setting GameAudio.Volume with value: 0.539429, prevous: 0.550045
+[2022.01.22-01.31.46:550][ 14]LogAutoSettings: Applying setting GameAudio.Volume with value: 0.528814, prevous: 0.539429
+[2022.01.22-01.31.46:575][ 17]LogAutoSettings: Applying setting GameAudio.Volume with value: 0.518199, prevous: 0.528814
+[2022.01.22-01.31.46:600][ 20]LogAutoSettings: Applying setting GameAudio.Volume with value: 0.507583, prevous: 0.518199
+[2022.01.22-01.31.46:600][ 20]LogAutoSettings: Applying setting GameAudio.Volume with value: 0.507583, prevous: 0.507583
+[2022.01.22-01.31.46:600][ 20]LogAutoSettings: Saving setting GameAudio.Volume with value: 0.507583, previous: 1
+[2022.01.22-01.31.46:776][ 41]LogAutoSettings: Applying setting GameAudio.Volume with value: 0.465121, prevous: 0.507583
+[2022.01.22-01.31.46:884][ 54]LogAutoSettings: Applying setting GameAudio.Volume with value: 0.465121, prevous: 0.465121
+[2022.01.22-01.31.46:934][ 60]LogAutoSettings: Applying setting GameAudio.Volume with value: 0.465121, prevous: 0.465121
+[2022.01.22-01.31.46:934][ 60]LogAutoSettings: Saving setting GameAudio.Volume with value: 0.465121, previous: 0.507583
+[2022.01.22-01.31.47:168][ 88]LogAutoSettings: Applying setting GameAudio.Volume with value: 0.550045, prevous: 0.465121
+[2022.01.22-01.31.47:176][ 89]LogAutoSettings: Applying setting GameAudio.Volume with value: 0.550045, prevous: 0.550045
+[2022.01.22-01.31.47:259][ 99]LogAutoSettings: Applying setting GameAudio.Volume with value: 0.550045, prevous: 0.550045
+[2022.01.22-01.31.47:260][ 99]LogAutoSettings: Applying setting GameAudio.Volume with value: 0.592507, prevous: 0.550045
+[2022.01.22-01.31.47:268][100]LogAutoSettings: Applying setting GameAudio.Volume with value: 0.603122, prevous: 0.592507
+[2022.01.22-01.31.47:268][100]LogAutoSettings: Applying setting GameAudio.Volume with value: 0.634969, prevous: 0.603122
+[2022.01.22-01.31.47:276][101]LogAutoSettings: Applying setting GameAudio.Volume with value: 0.666816, prevous: 0.634969
+[2022.01.22-01.31.47:284][102]LogAutoSettings: Applying setting GameAudio.Volume with value: 0.77297, prevous: 0.666816
+[2022.01.22-01.31.47:293][103]LogAutoSettings: Applying setting GameAudio.Volume with value: 0.815432, prevous: 0.77297
+[2022.01.22-01.31.47:301][104]LogAutoSettings: Applying setting GameAudio.Volume with value: 0.932203, prevous: 0.815432
+[2022.01.22-01.31.47:309][105]LogAutoSettings: Applying setting GameAudio.Volume with value: 1.0, prevous: 0.932203
+[2022.01.22-01.31.47:310][105]LogAutoSettings: Applying setting GameAudio.Volume with value: 1.0, prevous: 1
+[2022.01.22-01.31.47:318][106]LogAutoSettings: Applying setting GameAudio.Volume with value: 1.0, prevous: 1
+[2022.01.22-01.31.47:326][107]LogAutoSettings: Applying setting GameAudio.Volume with value: 1.0, prevous: 1
+[2022.01.22-01.31.47:334][108]LogAutoSettings: Applying setting GameAudio.Volume with value: 1.0, prevous: 1
+[2022.01.22-01.31.47:343][109]LogAutoSettings: Applying setting GameAudio.Volume with value: 1.0, prevous: 1
+[2022.01.22-01.31.47:351][110]LogAutoSettings: Applying setting GameAudio.Volume with value: 1.0, prevous: 1
+[2022.01.22-01.31.47:360][111]LogAutoSettings: Applying setting GameAudio.Volume with value: 1.0, prevous: 1
+[2022.01.22-01.31.47:368][112]LogAutoSettings: Applying setting GameAudio.Volume with value: 1.0, prevous: 1
+[2022.01.22-01.31.47:376][113]LogAutoSettings: Applying setting GameAudio.Volume with value: 1.0, prevous: 1
+[2022.01.22-01.31.47:385][114]LogAutoSettings: Applying setting GameAudio.Volume with value: 1.0, prevous: 1
+[2022.01.22-01.31.47:393][115]LogAutoSettings: Applying setting GameAudio.Volume with value: 1.0, prevous: 1
+[2022.01.22-01.31.47:410][117]LogAutoSettings: Applying setting GameAudio.Volume with value: 1.0, prevous: 1
+[2022.01.22-01.31.47:418][118]LogAutoSettings: Applying setting GameAudio.Volume with value: 1.0, prevous: 1
+[2022.01.22-01.31.47:426][119]LogAutoSettings: Applying setting GameAudio.Volume with value: 1.0, prevous: 1
+[2022.01.22-01.31.47:435][120]LogAutoSettings: Applying setting GameAudio.Volume with value: 1.0, prevous: 1
+[2022.01.22-01.31.47:435][120]LogAutoSettings: Saving setting GameAudio.Volume with value: 1, previous: 0.465121
+[2022.01.22-01.31.49:491][364]LogAutoSettingsInput: BindCapturePrompt: Listening for input
+[2022.01.22-01.31.49:892][412]LogAutoSettingsInput: BindCapturePrompt: Capture axis from mouse delta: X=-81.000 Y=12.000
+[2022.01.22-01.31.49:893][412]LogAutoSettingsInput: BindCapturePrompt: Captured chord: Mouse X, AxisScale: -1.000000
+[2022.01.22-01.31.49:894][412]LogAutoSettingsInput: InputMappingManager: Adding axis override: MoveForward, Scale: -1.000000
+[2022.01.22-01.31.49:894][412]LogAutoSettingsInput: Saving input overrides for DESKTOP-6DAELIS-A1D5
+[2022.01.22-01.31.51:185][560]LogAutoSettingsInput: BindCapturePrompt: Listening for input
+[2022.01.22-01.31.52:167][678]LogAutoSettingsInput: BindCapturePrompt: Captured chord: W, AxisScale: 1.000000
+[2022.01.22-01.31.52:167][678]LogAutoSettingsInput: InputMappingManager: Adding axis override: MoveForward, Scale: 1.000000
+[2022.01.22-01.31.52:168][678]LogAutoSettingsInput: Saving input overrides for DESKTOP-6DAELIS-A1D5
+[2022.01.22-01.31.52:868][760]LogAutoSettingsInput: BindCapturePrompt: Listening for input
+[2022.01.22-01.31.52:985][774]LogAutoSettingsInput: BindCapturePrompt: Captured chord: S, AxisScale: 1.000000
+[2022.01.22-01.31.52:985][774]LogAutoSettingsInput: InputMappingManager: Adding axis override: MoveForward, Scale: -1.000000
+[2022.01.22-01.31.52:985][774]LogAutoSettingsInput: Saving input overrides for DESKTOP-6DAELIS-A1D5
+[2022.01.22-01.31.58:175][394]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2022.01.22-01.31.58:175][394]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2022.01.22-01.32.03:303][998]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2022.01.22-01.32.03:303][998]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2022.01.22-01.32.07:390][483]LogAutoSettingsInput: BindCapturePrompt: Listening for input
+[2022.01.22-01.32.08:308][593]LogAutoSettingsInput: BindCapturePrompt: Capture axis from mouse delta: X=-1.000 Y=-80.000
+[2022.01.22-01.32.08:309][593]LogAutoSettingsInput: BindCapturePrompt: Captured chord: Mouse Y, AxisScale: 1.000000
+[2022.01.22-01.32.08:309][593]LogAutoSettingsInput: InputMappingManager: Adding axis override: LookUpRate, Scale: 1.000000
+[2022.01.22-01.32.08:309][593]LogAutoSettingsInput: Saving input overrides for DESKTOP-6DAELIS-A1D5
+[2022.01.22-01.32.10:026][797]LogAutoSettingsInput: BindCapturePrompt: Listening for input
+[2022.01.22-01.32.11:581][983]LogAutoSettingsInput: BindCapturePrompt: Capture axis from mouse delta: X=-88.000 Y=0.000
+[2022.01.22-01.32.11:581][983]LogAutoSettingsInput: BindCapturePrompt: Captured chord: Mouse X, AxisScale: -1.000000
+[2022.01.22-01.32.11:581][983]LogAutoSettingsInput: InputMappingManager: Adding axis override: LookUpRate, Scale: -1.000000
+[2022.01.22-01.32.11:582][983]LogAutoSettingsInput: Saving input overrides for DESKTOP-6DAELIS-A1D5
+[2022.01.22-01.32.12:752][121]LogAutoSettingsInput: BindCapturePrompt: Listening for input
+[2022.01.22-01.32.13:563][217]LogAutoSettingsInput: BindCapturePrompt: Capture axis from mouse delta: X=-82.000 Y=1.000
+[2022.01.22-01.32.13:563][217]LogAutoSettingsInput: BindCapturePrompt: Captured chord: Mouse X, AxisScale: -1.000000
+[2022.01.22-01.32.13:563][217]LogAutoSettingsInput: InputMappingManager: Adding axis override: LookUpRate, Scale: -1.000000
+[2022.01.22-01.32.13:563][217]LogAutoSettingsInput: Saving input overrides for DESKTOP-6DAELIS-A1D5
+[2022.01.22-01.32.14:494][326]LogAutoSettingsInput: BindCapturePrompt: Listening for input
+[2022.01.22-01.32.14:794][362]LogAutoSettingsInput: BindCapturePrompt: Capture axis from mouse delta: X=5.000 Y=-82.000
+[2022.01.22-01.32.14:794][362]LogAutoSettingsInput: BindCapturePrompt: Captured chord: Mouse Y, AxisScale: 1.000000
+[2022.01.22-01.32.14:794][362]LogAutoSettingsInput: InputMappingManager: Adding axis override: LookUp, Scale: -1.000000
+[2022.01.22-01.32.14:794][362]LogAutoSettingsInput: Saving input overrides for DESKTOP-6DAELIS-A1D5
+[2022.01.22-01.32.15:855][487]LogAutoSettingsInput: BindCapturePrompt: Listening for input
+[2022.01.22-01.32.16:072][513]LogAutoSettingsInput: BindCapturePrompt: Capture axis from mouse delta: X=2.000 Y=80.000
+[2022.01.22-01.32.16:072][513]LogAutoSettingsInput: BindCapturePrompt: Captured chord: Mouse Y, AxisScale: -1.000000
+[2022.01.22-01.32.16:072][513]LogAutoSettingsInput: InputMappingManager: Adding axis override: LookUp, Scale: 1.000000
+[2022.01.22-01.32.16:073][513]LogAutoSettingsInput: Saving input overrides for DESKTOP-6DAELIS-A1D5
+[2022.01.22-01.32.17:473][679]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2022.01.22-01.32.17:473][679]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2022.01.22-01.32.19:666][935]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2022.01.22-01.32.19:666][935]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2022.01.22-01.32.32:383][448]LogAutoSettingsInput: BindCapturePrompt: Listening for input
+[2022.01.22-01.32.32:805][497]LogAutoSettingsInput: BindCapturePrompt: Capture axis from mouse delta: X=3.000 Y=-88.000
+[2022.01.22-01.32.32:805][497]LogAutoSettingsInput: BindCapturePrompt: Captured chord: Mouse Y, AxisScale: 1.000000
+[2022.01.22-01.32.32:805][497]LogAutoSettingsInput: InputMappingManager: Adding axis override: LookUp, Scale: 1.000000
+[2022.01.22-01.32.32:805][497]LogAutoSettingsInput: Saving input overrides for DESKTOP-6DAELIS-A1D5
+[2022.01.22-01.32.36:667][954]LogAutoSettingsInput: BindCapturePrompt: Listening for input
+[2022.01.22-01.32.36:989][991]LogAutoSettingsInput: BindCapturePrompt: Capture axis from mouse delta: X=0.000 Y=-81.000
+[2022.01.22-01.32.36:989][991]LogAutoSettingsInput: BindCapturePrompt: Captured chord: Mouse Y, AxisScale: 1.000000
+[2022.01.22-01.32.36:990][991]LogAutoSettingsInput: InputMappingManager: Adding axis override: LookUpRate, Scale: 1.000000
+[2022.01.22-01.32.36:990][991]LogAutoSettingsInput: Saving input overrides for DESKTOP-6DAELIS-A1D5
+[2022.01.22-01.32.39:291][263]LogAutoSettingsInput: BindCapturePrompt: Listening for input
+[2022.01.22-01.32.39:581][298]LogAutoSettingsInput: BindCapturePrompt: Capture axis from mouse delta: X=84.000 Y=-3.000
+[2022.01.22-01.32.39:581][298]LogAutoSettingsInput: BindCapturePrompt: Captured chord: Mouse X, AxisScale: 1.000000
+[2022.01.22-01.32.39:581][298]LogAutoSettingsInput: InputMappingManager: Adding axis override: Turn, Scale: 1.000000
+[2022.01.22-01.32.39:581][298]LogAutoSettingsInput: Saving input overrides for DESKTOP-6DAELIS-A1D5
+[2022.01.22-01.32.41:407][511]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2022.01.22-01.32.41:408][511]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2022.01.22-01.32.43:883][800]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2022.01.22-01.32.43:883][800]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2022.01.22-01.32.47:584][241]LogAutoSettingsInput: BindCapturePrompt: Listening for input
+[2022.01.22-01.32.48:908][399]LogAutoSettingsInput: BindCapturePrompt: Capture axis from mouse delta: X=3.000 Y=-81.000
+[2022.01.22-01.32.48:908][399]LogAutoSettingsInput: BindCapturePrompt: Captured chord: Mouse Y, AxisScale: 1.000000
+[2022.01.22-01.32.48:908][399]LogAutoSettingsInput: InputMappingManager: Adding axis override: LookUpRate, Scale: 1.000000
+[2022.01.22-01.32.48:908][399]LogAutoSettingsInput: Saving input overrides for DESKTOP-6DAELIS-A1D5
+[2022.01.22-01.32.49:957][520]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2022.01.22-01.32.49:957][520]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2022.01.22-01.32.51:044][645]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2022.01.22-01.32.51:044][645]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2022.01.22-01.32.53:020][880]LogAutoSettingsInput: BindCapturePrompt: Listening for input
+[2022.01.22-01.32.53:454][932]LogAutoSettingsInput: BindCapturePrompt: Capture axis from mouse delta: X=-4.000 Y=83.000
+[2022.01.22-01.32.53:454][932]LogAutoSettingsInput: BindCapturePrompt: Captured chord: Mouse Y, AxisScale: -1.000000
+[2022.01.22-01.32.53:454][932]LogAutoSettingsInput: InputMappingManager: Adding axis override: LookUpRate, Scale: -1.000000
+[2022.01.22-01.32.53:455][932]LogAutoSettingsInput: Saving input overrides for DESKTOP-6DAELIS-A1D5
+[2022.01.22-01.32.54:000][993]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2022.01.22-01.32.54:000][993]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2022.01.22-01.32.57:218][376]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.22-01.32.57:218][376]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.01.22-01.32.57:218][376]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.01.22-01.32.57:219][376]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.22-01.32.57:233][376]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.01.22-01.32.57:244][376]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.22-01.32.57:281][376]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.22-01.32.57:281][376]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.22-01.32.57:282][376]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.22-01.32.57:307][376]LogUObjectHash: Compacting FUObjectHashTables data took   3.63ms
+[2022.01.22-01.32.57:338][377]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2022.01.22-01.33.31:537][922]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2022.01.22-01.33.32:028][964]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2022.01.22-01.33.32:493][ 18]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter2)
+[2022.01.22-01.33.37:601][407]LogContentBrowser: Deferred new asset file creation: FirstPersonCharacter_Child
+[2022.01.22-01.33.37:652][407]LogContentBrowser: Creating deferred item: FirstPersonCharacter_Child
+[2022.01.22-01.33.38:213][448]LogContentBrowser: Attempting asset rename: FirstPersonCharacter_Child -> FirstPersonCharacter_Child
+[2022.01.22-01.33.38:225][448]LogContentBrowser: End creating deferred item FirstPersonCharacter_Child
+[2022.01.22-01.33.38:960][493]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter_Child.FirstPersonCharacter_Child
+[2022.01.22-01.33.40:815][551]LogSlate: Window 'FirstPersonCharacter_Child' being destroyed
+[2022.01.22-01.33.45:867][ 28]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2022.01.22-01.33.45:867][ 28]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.22-01.33.47:924][183]LogUObjectHash: Compacting FUObjectHashTables data took   5.68ms
+[2022.01.22-01.33.48:961][183]LogSlate: Window 'Delete Assets' being destroyed
+[2022.01.22-01.33.49:184][183]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.01.22-01.33.49:184][183]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2022.01.22-01.33.49:184][183]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.22-01.33.49:306][183]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter_Child.FirstPersonCharacter_Child
+[2022.01.22-01.33.52:288][183]LogUObjectHash: Compacting FUObjectHashTables data took   4.23ms
+[2022.01.22-01.33.52:390][183]LogUObjectHash: Compacting FUObjectHashTables data took   4.33ms
+[2022.01.22-01.40.40:025][953]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2022.01.22-01.41.14:676][249]LogSlate: Took 0.012444 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2022.01.22-01.42.01:286][165]BlueprintLog: New page: Compile FirstPersonCharacter
+[2022.01.22-01.42.01:544][165]LogUObjectHash: Compacting FUObjectHashTables data took   4.71ms
+[2022.01.22-01.42.01:989][189]LogSavePackage: Moving '../../../../../GlobalGamejam2022/GGJ2022/GGJ2022Game/Saved/FirstPersonCharacterB10280BE4C5518B30766A6B3AE965889.tmp' to '../../../../../GlobalGamejam2022/GGJ2022/GGJ2022Game/Content/FirstPersonCPP/Blueprints/FirstPersonCharacter.uasset'
+[2022.01.22-01.42.02:004][189]AssetCheck: New page: Asset Save: FirstPersonCharacter
+[2022.01.22-01.42.02:004][189]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2022.01.22-01.42.05:637][557]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2022.01.22-01.42.05:637][557]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.22-01.42.08:502][815]LogUObjectHash: Compacting FUObjectHashTables data took   3.53ms
+[2022.01.22-01.42.09:401][815]LogSlate: Window 'Save Content' being destroyed
+[2022.01.22-01.42.09:451][815]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2022.01.22-01.42.09:472][815]LogSavePackage: Moving '../../../../../GlobalGamejam2022/GGJ2022/GGJ2022Game/Saved/FirstPersonExampleMapC1E0C6734DA8E13DC5848080284954EE.tmp' to '../../../../../GlobalGamejam2022/GGJ2022/GGJ2022Game/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap'
+[2022.01.22-01.42.09:486][815]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.062
+[2022.01.22-01.42.09:505][815]AssetCheck: New page: Asset Save: FirstPersonExampleMap
+[2022.01.22-01.42.09:505][815]LogContentValidation: Display: Validating World /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
+[2022.01.22-01.42.34:354][598]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.01.22-01.42.34:375][598]LogContentBrowser: Creating deferred item: NewFolder
+[2022.01.22-01.42.36:257][807]LogContentBrowser: Attempting asset rename: NewFolder -> Materials
+[2022.01.22-01.42.36:258][807]LogContentBrowser: End creating deferred item NewFolder
+[2022.01.22-01.42.39:042][ 64]LogContentBrowser: Deferred new asset file creation: NewMaterial
+[2022.01.22-01.42.39:057][ 64]LogContentBrowser: Creating deferred item: NewMaterial
+[2022.01.22-01.42.41:885][388]LogContentBrowser: Attempting asset rename: NewMaterial -> TestMat
+[2022.01.22-01.42.41:898][388]LogContentBrowser: End creating deferred item NewMaterial
+[2022.01.22-01.42.42:924][478]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Materials/TestMat.TestMat
+[2022.01.22-01.42.42:963][478]LogMaterial: Display: Missing cached shadermap for TestMat in PCD3D_SM5, Default, SM5 (DDC key hash: 88A688D62F58A4125CF9D345BCE5DF4A6BBEEA40), compiling. 
+[2022.01.22-01.42.42:987][478]LogShaderCompilers: Display: Submitted 10 shader compile jobs with 'Normal' priority
+[2022.01.22-01.42.43:053][478]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behaiour for '/Engine/EditorMaterials/AssetViewer/EpicQuadPanorama_CC+EV1.EpicQuadPanorama_CC+EV1', its maximum texture size has been explicitly set to 512.
+[2022.01.22-01.42.43:266][478]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behaiour for '/Engine/MapTemplates/Sky/SunsetAmbientCubemap.SunsetAmbientCubemap', its maximum texture size has been explicitly set to 512.
+[2022.01.22-01.42.43:550][478]LogSlate: The tab "MaterialEditor_Stats" attempted to spawn in layout 'Standalone_MaterialEditor_Layout_v10' but failed for some reason. An "unrecognized tab" will be returned instead.
+[2022.01.22-01.42.43:610][478]LogMaterial: Display: Missing cached shadermap for TestMat in PCD3D_SM5, Default, SM5 (DDC key hash: DB556126308C0B620CB597945036FEA4AC35364C), compiling. 
+[2022.01.22-01.42.43:664][478]MaterialEditorStats: Texture samplers: 0/16
+[2022.01.22-01.42.43:808][479]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.01.22-01.42.43:808][479]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2022.01.22-01.42.43:808][479]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2022.01.22-01.42.43:808][479]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.01.22-01.42.43:808][479]LogShaderCompilers: Display: Submitted 8 shader compile jobs with 'Normal' priority
+[2022.01.22-01.42.43:856][481]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 8
+[2022.01.22-01.42.43:857][481]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
+[2022.01.22-01.42.43:857][481]LogShaderCompilers: Display: Started 6 'Local' shader compile jobs with 'Normal' priority
+[2022.01.22-01.42.45:191][544]LogSlate: Window 'TestMat' being destroyed
+[2022.01.22-01.42.46:011][622]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2022.01.22-01.42.46:011][622]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.01.22-01.42.46:014][622]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.01.22-01.42.46:014][622]LogShaderCompilers: Display: Total job queries 20, among them cache hits 0 (0.00%)
+[2022.01.22-01.42.46:014][622]LogShaderCompilers: Display: Tracking 1 distinct input hashes that result in 1 distinct outputs (100.00%)
+[2022.01.22-01.42.46:014][622]LogShaderCompilers: Display: RAM used: 0.00 MB (0.00 GB) of 1228.80 MB (1.20 GB) budget. Usage: 0.00%
+[2022.01.22-01.42.46:014][622]LogShaderCompilers: Display: ================================================
+[2022.01.22-01.42.46:169][632]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1
+[2022.01.22-01.42.46:169][632]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.01.22-01.42.46:174][632]MaterialEditorStats: Texture samplers: 2/16
+[2022.01.22-01.42.47:418][731]MaterialEditorStats: Base pass shader: 117 instructions
+[2022.01.22-01.42.47:418][731]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2022.01.22-01.42.47:418][731]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.01.22-01.42.47:418][731]MaterialEditorStats: Texture samplers: 2/16
+[2022.01.22-01.42.57:045][835]LogMaterial: Display: Missing cached shadermap for TestMat in PCD3D_SM5, Default, SM5 (DDC key hash: 5101AB27321929AD0934DEFB3115ACB0099527D1), compiling. 
+[2022.01.22-01.42.57:047][835]LogMaterial: Display: Missing cached shadermap for TestMat in PCD3D_SM5, Default, SM5 (DDC key hash: A0B0EB165E11CE7D1F1DAFBEC61C73B4D0BEC287), compiling. 
+[2022.01.22-01.42.57:065][835]MaterialEditorStats: Texture samplers: 0/16
+[2022.01.22-01.42.57:115][836]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.01.22-01.42.57:115][836]LogShaderCompilers: Display: Submitted 8 shader compile jobs with 'Normal' priority
+[2022.01.22-01.42.57:115][836]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2022.01.22-01.42.57:115][836]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2022.01.22-01.42.57:115][836]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 8
+[2022.01.22-01.42.57:115][836]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
+[2022.01.22-01.42.57:115][836]LogShaderCompilers: Display: Started 6 'Local' shader compile jobs with 'Normal' priority
+[2022.01.22-01.42.57:115][836]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.01.22-01.42.57:719][877]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2022.01.22-01.42.57:719][877]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.01.22-01.42.57:936][888]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1
+[2022.01.22-01.42.57:936][888]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.01.22-01.42.57:988][889]MaterialEditorStats: Texture samplers: 2/16
+[2022.01.22-01.42.58:501][912]LogMaterial: Display: Missing cached shadermap for TestMat in PCD3D_SM5, Default, SM5 (DDC key hash: 7D3686F25CEC8E1FB985C09CF24EFC108F01632F), compiling. 
+[2022.01.22-01.42.58:504][912]MaterialEditorStats: Texture samplers: 0/16
+[2022.01.22-01.42.58:569][914]MaterialEditorStats: Base pass shader: 117 instructions
+[2022.01.22-01.42.58:569][914]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2022.01.22-01.42.58:569][914]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.01.22-01.42.58:569][914]MaterialEditorStats: Texture samplers: 2/16
+[2022.01.22-01.43.25:777][ 48]LogMaterial: Display: Missing cached shadermap for TestMat in PCD3D_SM5, Default, SM5 (DDC key hash: 6C17492757B1BFB0EA309BB58CE908F1A624F3C2), compiling. 
+[2022.01.22-01.43.25:779][ 48]LogMaterial: Display: Missing cached shadermap for TestMat in PCD3D_SM5, Default, SM5 (DDC key hash: 61BA14AF217052717A80137C00A97331F5991F3E), compiling. 
+[2022.01.22-01.43.25:787][ 48]MaterialEditorStats: Texture samplers: 0/16
+[2022.01.22-01.43.25:868][ 49]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.01.22-01.43.25:868][ 49]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2022.01.22-01.43.25:868][ 49]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2022.01.22-01.43.25:868][ 49]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.01.22-01.43.25:868][ 49]LogShaderCompilers: Display: Submitted 8 shader compile jobs with 'Normal' priority
+[2022.01.22-01.43.25:868][ 49]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 8
+[2022.01.22-01.43.25:868][ 49]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
+[2022.01.22-01.43.25:868][ 49]LogShaderCompilers: Display: Started 6 'Local' shader compile jobs with 'Normal' priority
+[2022.01.22-01.43.26:614][109]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2022.01.22-01.43.26:614][109]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.01.22-01.43.26:716][115]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1
+[2022.01.22-01.43.26:716][115]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.01.22-01.43.26:745][116]MaterialEditorStats: Texture samplers: 2/16
+[2022.01.22-01.43.27:352][155]LogMaterial: Display: Missing cached shadermap for TestMat in PCD3D_SM5, Default, SM5 (DDC key hash: 9C26A97F983A0E18D6E1CF72C594AF9534A91C87), compiling. 
+[2022.01.22-01.43.27:356][155]MaterialEditorStats: Texture samplers: 0/16
+[2022.01.22-01.43.27:435][157]MaterialEditorStats: Base pass shader: 117 instructions
+[2022.01.22-01.43.27:435][157]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2022.01.22-01.43.27:435][157]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.01.22-01.43.27:435][157]MaterialEditorStats: Texture samplers: 2/16
+[2022.01.22-01.43.34:626][869]LogMaterial: Display: Missing cached shadermap for TestMat in PCD3D_SM5, Default, SM5 (DDC key hash: A395A04C9C9D3D985666B2AD87F50F53D95C4922), compiling. 
+[2022.01.22-01.43.34:628][869]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 37159D9EEFE8584B5FA2F0D9603C533B97E48078), compiling. 
+[2022.01.22-01.43.34:629][869]LogMaterial: Display: Missing cached shadermap for TestMat in PCD3D_SM5, Default, SM5 (DDC key hash: 6313ABB35F74255593F2C158E6B67478A1A7C27E), compiling. 
+[2022.01.22-01.43.34:631][869]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: E3EA48939EEA3D61A5E7BF22357631236C000BA4), compiling. 
+[2022.01.22-01.43.34:636][869]MaterialEditorStats: Texture samplers: 0/16
+[2022.01.22-01.43.34:661][870]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.01.22-01.43.34:661][870]LogShaderCompilers: Display: Submitted 8 shader compile jobs with 'Normal' priority
+[2022.01.22-01.43.34:661][870]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2022.01.22-01.43.34:661][870]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2022.01.22-01.43.34:661][870]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 8
+[2022.01.22-01.43.34:661][870]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
+[2022.01.22-01.43.34:661][870]LogShaderCompilers: Display: Started 6 'Local' shader compile jobs with 'Normal' priority
+[2022.01.22-01.43.34:661][870]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.01.22-01.43.34:697][871]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.01.22-01.43.35:330][924]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2022.01.22-01.43.35:330][924]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.01.22-01.43.35:460][938]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1
+[2022.01.22-01.43.35:460][938]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.01.22-01.43.35:460][938]MaterialEditorStats: Texture samplers: 2/16
+[2022.01.22-01.43.35:886][979]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2022.01.22-01.43.35:886][979]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.01.22-01.43.35:979][990]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1
+[2022.01.22-01.43.35:979][990]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.01.22-01.43.36:810][ 78]MaterialEditorStats: Base pass shader: 119 instructions
+[2022.01.22-01.43.36:810][ 78]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2022.01.22-01.43.36:810][ 78]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.01.22-01.43.36:810][ 78]MaterialEditorStats: Texture samplers: 2/16
+[2022.01.22-01.43.48:297][142]LogMaterial: Display: Missing cached shadermap for TestMat in PCD3D_SM5, Default, SM5 (DDC key hash: A543070CC30E53D43ABE5568B2FB4BAD2EE2B248), compiling. 
+[2022.01.22-01.43.48:298][142]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 86A9EFA8BBB8A0DE5052C771ED51924C915618E4), compiling. 
+[2022.01.22-01.43.48:300][142]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 1ED7FB37A4A0AC2FE7C6A08467E679CFAF24E222), compiling. 
+[2022.01.22-01.43.48:302][142]LogMaterial: Display: Missing cached shadermap for TestMat in PCD3D_SM5, Default, SM5 (DDC key hash: 67C39020799DFAEFC433D81BD40D1B7648E9A6C8), compiling. 
+[2022.01.22-01.43.48:304][142]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: EA0AF83B3B8A393C7A784FD7DE4671663BE990DE), compiling. 
+[2022.01.22-01.43.48:305][142]LogMaterial: Display: Missing cached shadermap for TestMat in PCD3D_SM5, Default, SM5 (DDC key hash: F57E14E0D27EE433CF808ECD278EC48E3BBBA4A2), compiling. 
+[2022.01.22-01.43.48:306][142]LogSlate: Window 'Color Picker' being destroyed
+[2022.01.22-01.43.48:312][142]MaterialEditorStats: Texture samplers: 0/16
+[2022.01.22-01.43.48:333][144]MaterialEditorStats: Texture samplers: 2/16
+[2022.01.22-01.43.48:346][145]MaterialEditorStats: Base pass shader: 119 instructions
+[2022.01.22-01.43.48:346][145]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2022.01.22-01.43.48:346][145]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.01.22-01.43.48:346][145]MaterialEditorStats: Texture samplers: 2/16
+[2022.01.22-01.43.51:693][473]LogMaterial: Display: Missing cached shadermap for TestMat in PCD3D_SM5, Default, SM5 (DDC key hash: B0D3959BECCA05D87F612A03819E9FCA2878C7B9), compiling. 
+[2022.01.22-01.43.51:697][473]MaterialEditorStats: Texture samplers: 0/16
+[2022.01.22-01.43.51:713][475]MaterialEditorStats: Texture samplers: 2/16
+[2022.01.22-01.43.51:729][476]MaterialEditorStats: Base pass shader: 119 instructions
+[2022.01.22-01.43.51:729][476]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2022.01.22-01.43.51:729][476]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.01.22-01.43.51:729][476]MaterialEditorStats: Texture samplers: 2/16
+[2022.01.22-01.43.58:361][ 51]LogMaterialEditor: Applying material TestMat
+[2022.01.22-01.44.00:661][ 51]LogMaterial: Display: Missing cached shadermap for TestMat in PCD3D_SM5, Default, SM5 (DDC key hash: 86B4A4756FBD86314D20685204D20AB7AEAFF85A), compiling. 
+[2022.01.22-01.44.00:698][ 51]LogMaterial: Display: Missing cached shadermap for TestMat in PCD3D_SM5, Default, SM5 (DDC key hash: 83E6681BF000B1EE87DDE7F466F77E4F9FD0BC60), compiling. 
+[2022.01.22-01.44.00:743][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   3.59ms
+[2022.01.22-01.44.00:766][ 51]LogShaderCompilers: Display: Submitted 1 shader compile jobs with 'ForceLocal' priority
+[2022.01.22-01.44.01:119][ 51]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1
+[2022.01.22-01.44.01:119][ 51]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.01.22-01.44.01:120][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2022.01.22-01.44.01:138][ 51]MaterialEditorStats: Texture samplers: 0/16
+[2022.01.22-01.44.01:161][ 53]LogShaderCompilers: Display: Submitted 5 shader compile jobs with 'Normal' priority
+[2022.01.22-01.44.01:165][ 53]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 5
+[2022.01.22-01.44.01:165][ 53]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 3
+[2022.01.22-01.44.01:165][ 53]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1
+[2022.01.22-01.44.01:165][ 53]LogShaderCompilers: Display: Started 5 'Local' shader compile jobs with 'Normal' priority
+[2022.01.22-01.44.01:179][ 53]MaterialEditorStats: Texture samplers: 2/16
+[2022.01.22-01.44.02:344][131]MaterialEditorStats: Base pass shader: 119 instructions
+[2022.01.22-01.44.02:344][131]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2022.01.22-01.44.02:344][131]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.01.22-01.44.02:344][131]MaterialEditorStats: Texture samplers: 3/16
+[2022.01.22-01.44.07:890][612]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2022.01.22-01.44.08:825][612]LogSlate: Window 'Save Content' being destroyed
+[2022.01.22-01.44.08:866][612]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/TestMat" FILE="../../../../../GlobalGamejam2022/GGJ2022/GGJ2022Game/Content/Materials/TestMat.uasset" SILENT=true
+[2022.01.22-01.44.08:871][612]LogSavePackage: Moving '../../../../../GlobalGamejam2022/GGJ2022/GGJ2022Game/Saved/TestMat9D59981A4539D075380112AA31A7C5B3.tmp' to '../../../../../GlobalGamejam2022/GGJ2022/GGJ2022Game/Content/Materials/TestMat.uasset'
+[2022.01.22-01.44.08:888][612]AssetCheck: New page: Asset Save: TestMat
+[2022.01.22-01.44.08:888][612]LogContentValidation: Display: Validating Material /Game/Materials/TestMat.TestMat
+[2022.01.22-01.44.12:081][860]LogContentBrowser: Deferred new asset file creation: TestMat_Inst
+[2022.01.22-01.44.12:110][860]LogContentBrowser: Creating deferred item: TestMat_Inst
+[2022.01.22-01.44.13:190][952]LogContentBrowser: Attempting asset rename: TestMat_Inst -> TestMat_Inst
+[2022.01.22-01.44.13:191][952]LogContentBrowser: End creating deferred item TestMat_Inst
+[2022.01.22-01.44.14:440][ 40]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/Materials/TestMat_Inst.TestMat_Inst
+[2022.01.22-01.44.14:627][ 40]LogRenderer: Reallocating scene render targets to support 1336x920 Format 10 NumSamples 1 (Frame:1).
+[2022.01.22-01.44.25:302][268]LogSlate: Window 'Color Picker' being destroyed
+[2022.01.22-01.44.29:702][702]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2022.01.22-01.44.30:714][702]LogSlate: Window 'Save Content' being destroyed
+[2022.01.22-01.44.30:750][702]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/TestMat_Inst" FILE="../../../../../GlobalGamejam2022/GGJ2022/GGJ2022Game/Content/Materials/TestMat_Inst.uasset" SILENT=true
+[2022.01.22-01.44.30:778][702]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2022.01.22-01.44.30:805][702]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2022.01.22-01.44.30:810][702]LogSavePackage: Moving '../../../../../GlobalGamejam2022/GGJ2022/GGJ2022Game/Saved/TestMat_InstA95323AD4AC319EE1396BBA5B775F349.tmp' to '../../../../../GlobalGamejam2022/GGJ2022/GGJ2022Game/Content/Materials/TestMat_Inst.uasset'
+[2022.01.22-01.44.30:824][702]AssetCheck: New page: Asset Save: TestMat_Inst
+[2022.01.22-01.44.30:824][702]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/Materials/TestMat_Inst.TestMat_Inst
+[2022.01.22-01.46.03:569][753]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\GlobalGamejam2022\GGJ2022\Assets\FBXReadyForImport\TestCube.fbx)
+[2022.01.22-01.46.03:735][753]LogFbx: Loading FBX Scene from D:\GlobalGamejam2022\GGJ2022\Assets\FBXReadyForImport\TestCube.fbx
+[2022.01.22-01.46.03:787][753]LogFbx: FBX Scene Loaded Succesfully
+[2022.01.22-01.46.08:135][753]LogSlate: Window 'FBX Import Options' being destroyed
+[2022.01.22-01.46.08:226][753]LogMaterial: Display: Missing cached shadermap for Material in PCD3D_SM5, Default, SM5 (DDC key hash: 965A0C767189C50502952C91E841823F596DD9E1), compiling. 
+[2022.01.22-01.46.08:232][753]LogMaterial: Display: Missing cached shadermap for Material_001 in PCD3D_SM5, Default, SM5 (DDC key hash: EB5681D29D5C67CF1D503A8103AECA12B600AF25), compiling. 
+[2022.01.22-01.46.08:235][753]LogFbx: Display: Triangulating static mesh Cube
+[2022.01.22-01.46.08:260][753]LogStaticMesh: Building static mesh TestCube...
+[2022.01.22-01.46.08:281][753]LogStaticMesh: Built static mesh [0.02s] /Game/Geometry/Meshes/TestCube.TestCube
+[2022.01.22-01.46.08:537][756]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.01.22-01.46.08:539][756]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.01.22-01.46.08:543][756]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 4
+[2022.01.22-01.46.08:543][756]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2022.01.22-01.46.08:543][756]LogShaderCompilers: Display: Started 4 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.01.22-01.46.08:550][756]LogShaderCompilers: Display: Submitted 14 shader compile jobs with 'Normal' priority
+[2022.01.22-01.46.08:556][756]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 14
+[2022.01.22-01.46.08:556][756]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 10
+[2022.01.22-01.46.08:556][756]LogShaderCompilers: Display: Started 8 'Local' shader compile jobs with 'Normal' priority
+[2022.01.22-01.46.08:563][756]LogShaderCompilers: Display: Submitted 14 shader compile jobs with 'Normal' priority
+[2022.01.22-01.46.10:024][806]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 20
+[2022.01.22-01.46.10:024][806]LogShaderCompilers: Display: Started 6 'Local' shader compile jobs with 'Normal' priority
+[2022.01.22-01.46.10:032][807]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.01.22-01.46.10:032][807]LogShaderCompilers: Display: Total job queries 163, among them cache hits 73 (44.79%)
+[2022.01.22-01.46.10:032][807]LogShaderCompilers: Display: Tracking 50 distinct input hashes that result in 32 distinct outputs (64.00%)
+[2022.01.22-01.46.10:032][807]LogShaderCompilers: Display: RAM used: 0.19 MB (0.00 GB) of 1228.80 MB (1.20 GB) budget. Usage: 0.02%
+[2022.01.22-01.46.10:032][807]LogShaderCompilers: Display: ================================================
+[2022.01.22-01.46.10:071][809]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 14
+[2022.01.22-01.46.10:071][809]LogShaderCompilers: Display: Started 4 'Local' shader compile jobs with 'Normal' priority
+[2022.01.22-01.46.10:778][831]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2022.01.22-01.46.10:778][831]LogShaderCompilers: Display: Started 3 'Local' shader compile jobs with 'Normal' priority
+[2022.01.22-01.46.11:617][859]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 7
+[2022.01.22-01.46.11:617][859]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2022.01.22-01.46.12:343][884]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 5
+[2022.01.22-01.46.12:343][884]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2022.01.22-01.46.12:641][894]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 3
+[2022.01.22-01.46.12:641][894]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.01.22-01.46.13:099][910]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 2
+[2022.01.22-01.46.13:099][910]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.01.22-01.46.13:125][911]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1
+[2022.01.22-01.46.13:125][911]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.01.22-01.46.16:321][ 93]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Geometry/Meshes/TestCube.TestCube
+[2022.01.22-01.46.17:229][ 94]LogRenderer: Reallocating scene render targets to support 1432x920 Format 10 NumSamples 1 (Frame:1).
+[2022.01.22-01.50.44:677][485]LogEditorFactories: Performing atomic reimport of [D:/GlobalGamejam2022/GGJ2022/Assets/FBXReadyForImport/TestCube.fbx]
+[2022.01.22-01.50.44:714][485]LogFbx: Loading FBX Scene from D:/GlobalGamejam2022/GGJ2022/Assets/FBXReadyForImport/TestCube.fbx
+[2022.01.22-01.50.44:721][485]LogFbx: FBX Scene Loaded Succesfully
+[2022.01.22-01.50.44:751][485]LogFbx: Display: Triangulating static mesh Cube
+[2022.01.22-01.50.44:785][485]LogStaticMesh: Building static mesh TestCube...
+[2022.01.22-01.50.44:795][485]LogStaticMesh: Built static mesh [0.01s] /Game/Geometry/Meshes/TestCube.TestCube
+[2022.01.22-01.50.47:287][485]LogSlate: Window 'Reimport Material Conflicts Resolution' being destroyed
+[2022.01.22-01.50.47:308][485]LogEditorFactories: -- imported successfully
+[2022.01.22-01.50.49:621][600]LogActorFactory: Actor Factory created TestCube
+[2022.01.22-01.50.50:438][658]LogActorFactory: Actor Factory created TestCube
+[2022.01.22-01.51.01:310][561]LogTemp: Repeating last play command: Selected Viewport
+[2022.01.22-01.51.01:316][561]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.01.22-01.51.01:316][561]PIE: New page: PIE session: FirstPersonExampleMap (Jan 21, 2022, 11:51:01 AM)
+[2022.01.22-01.51.01:338][561]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.01.22-01.51.01:349][561]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011176s)
+[2022.01.22-01.51.01:350][561]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2022.01.22-01.51.01:351][561]LogPlayLevel: PIE: World Init took: (0.001454s)
+[2022.01.22-01.51.01:351][561]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.012816s)
+[2022.01.22-01.51.01:558][561]LogUObjectHash: Compacting FUObjectHashTables data took   6.82ms
+[2022.01.22-01.51.01:562][561]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2022.01.22-01.51.01:562][561]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.01.22-01.51.01:562][561]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.01.22-01.51.01:562][561]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.01.22-01.51.01:562][561]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.01.22-01.51.01:562][561]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.01.22-01.51.01:562][561]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.01.22-01.51.01:562][561]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.01.22-01.51.01:562][561]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.01.22-01.51.01:563][561]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.01.22-01.51.01:563][561]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.01.22-01.51.01:563][561]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.01.22-01.51.01:563][561]LogAudioMixer: Display: Initializing audio mixer.
+[2022.01.22-01.51.01:578][561]LogAudioMixer: Display: 0: FrontLeft
+[2022.01.22-01.51.01:578][561]LogAudioMixer: Display: 1: FrontRight
+[2022.01.22-01.51.01:645][561]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2022.01.22-01.51.01:645][561]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.01.22-01.51.01:645][561]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.01.22-01.51.01:645][561]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.01.22-01.51.01:645][561]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.01.22-01.51.01:645][561]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.01.22-01.51.01:645][561]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.01.22-01.51.01:646][561]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.01.22-01.51.01:646][561]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.01.22-01.51.01:646][561]LogInit: FAudioDevice initialized.
+[2022.01.22-01.51.01:646][561]LogAudio: Display: Audio Device (ID: 13) registered with world 'FirstPersonExampleMap'.
+[2022.01.22-01.51.01:655][561]LogLoad: Game class is 'GGJ_GM_C'
+[2022.01.22-01.51.01:657][561]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2022.01.21-18.51.01
+[2022.01.22-01.51.01:657][561]LogWorld: Bringing up level for play took: 0.001621
+[2022.01.22-01.51.01:657][561]LogOnline: OSS: Creating online subsystem instance for: :Context_30
+[2022.01.22-01.51.01:659][561]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2022.01.22-01.51.01:660][561]PIE: Server logged in
+[2022.01.22-01.51.01:660][561]PIE: Play in editor total start time 0.345 seconds.
+[2022.01.22-01.51.01:662][561]LogAutoSettingsInput: Registering input overrides for DESKTOP-6DAELIS-626F
+[2022.01.22-01.51.01:663][561]LogAutoSettingsInput: Saving input overrides for DESKTOP-6DAELIS-626F
+[2022.01.22-01.51.02:258][619]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-209.544 Y=-87.309 Z=290.317] for [FirstPersonProjectile_C]
+[2022.01.22-01.51.03:779][793]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.22-01.51.03:779][793]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.01.22-01.51.03:779][793]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.01.22-01.51.03:780][793]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.22-01.51.03:792][793]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.01.22-01.51.03:810][793]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.22-01.51.03:840][793]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.01.22-01.51.03:851][793]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.22-01.51.03:853][793]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.22-01.51.03:856][793]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.22-01.51.03:927][793]LogUObjectHash: Compacting FUObjectHashTables data took   7.67ms
+[2022.01.22-01.51.03:969][794]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2022.01.22-01.51.13:291][780]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/TestCube" FILE="../../../../../GlobalGamejam2022/GGJ2022/GGJ2022Game/Content/Geometry/Meshes/TestCube.uasset" SILENT=true
+[2022.01.22-01.51.13:299][780]LogSavePackage: Moving '../../../../../GlobalGamejam2022/GGJ2022/GGJ2022Game/Saved/TestCube55739FC8460F45792BA98D8F79386C41.tmp' to '../../../../../GlobalGamejam2022/GGJ2022/GGJ2022Game/Content/Geometry/Meshes/TestCube.uasset'
+[2022.01.22-01.51.13:319][780]AssetCheck: New page: Asset Save: TestCube
+[2022.01.22-01.51.13:319][780]LogContentValidation: Display: Validating StaticMesh /Game/Geometry/Meshes/TestCube.TestCube
+[2022.01.22-01.51.21:705][708]LogTemp: Repeating last play command: Selected Viewport
+[2022.01.22-01.51.21:710][708]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.01.22-01.51.21:710][708]PIE: New page: PIE session: FirstPersonExampleMap (Jan 21, 2022, 11:51:21 AM)
+[2022.01.22-01.51.21:738][708]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.01.22-01.51.21:749][708]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011009s)
+[2022.01.22-01.51.21:750][708]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2022.01.22-01.51.21:751][708]LogPlayLevel: PIE: World Init took: (0.001231s)
+[2022.01.22-01.51.21:751][708]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.012458s)
+[2022.01.22-01.51.21:783][708]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
+[2022.01.22-01.51.21:791][708]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2022.01.22-01.51.21:791][708]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.01.22-01.51.21:791][708]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.01.22-01.51.21:791][708]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.01.22-01.51.21:791][708]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.01.22-01.51.21:791][708]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.01.22-01.51.21:791][708]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.01.22-01.51.21:791][708]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.01.22-01.51.21:791][708]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.01.22-01.51.21:792][708]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.01.22-01.51.21:792][708]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.01.22-01.51.21:792][708]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.01.22-01.51.21:792][708]LogAudioMixer: Display: Initializing audio mixer.
+[2022.01.22-01.51.21:804][708]LogAudioMixer: Display: 0: FrontLeft
+[2022.01.22-01.51.21:804][708]LogAudioMixer: Display: 1: FrontRight
+[2022.01.22-01.51.21:853][708]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2022.01.22-01.51.21:853][708]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.01.22-01.51.21:853][708]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.01.22-01.51.21:853][708]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.01.22-01.51.21:854][708]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.01.22-01.51.21:854][708]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.01.22-01.51.21:854][708]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.01.22-01.51.21:855][708]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.01.22-01.51.21:855][708]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.01.22-01.51.21:855][708]LogInit: FAudioDevice initialized.
+[2022.01.22-01.51.21:855][708]LogAudio: Display: Audio Device (ID: 14) registered with world 'FirstPersonExampleMap'.
+[2022.01.22-01.51.21:866][708]LogLoad: Game class is 'GGJ_GM_C'
+[2022.01.22-01.51.21:868][708]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2022.01.21-18.51.21
+[2022.01.22-01.51.21:869][708]LogWorld: Bringing up level for play took: 0.001618
+[2022.01.22-01.51.21:869][708]LogOnline: OSS: Creating online subsystem instance for: :Context_31
+[2022.01.22-01.51.21:871][708]PIE: Server logged in
+[2022.01.22-01.51.21:872][708]PIE: Play in editor total start time 0.163 seconds.
+[2022.01.22-01.51.21:874][708]LogAutoSettingsInput: Registering input overrides for DESKTOP-6DAELIS-D552
+[2022.01.22-01.51.21:874][708]LogAutoSettingsInput: Saving input overrides for DESKTOP-6DAELIS-D552
+[2022.01.22-01.51.36:240][381]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter2)
+[2022.01.22-01.57.23:329][923]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.22-01.57.23:329][923]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.01.22-01.57.23:330][923]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.01.22-01.57.23:330][923]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.22-01.57.23:339][923]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.01.22-01.57.23:345][923]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.22-01.57.23:369][923]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.01.22-01.57.23:369][923]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.22-01.57.23:370][923]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.22-01.57.23:373][923]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.22-01.57.23:377][923]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
+[2022.01.22-01.57.23:400][924]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2022.01.22-01.57.25:141][116]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2022.01.22-01.57.25:162][116]LogSavePackage: Moving '../../../../../GlobalGamejam2022/GGJ2022/GGJ2022Game/Saved/FirstPersonExampleMap3778D43B445E523147FCDB98591BD7BF.tmp' to '../../../../../GlobalGamejam2022/GGJ2022/GGJ2022Game/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap'
+[2022.01.22-01.57.25:822][116]LogSavePackage: Moving '../../../../../GlobalGamejam2022/GGJ2022/GGJ2022Game/Saved/FirstPersonExampleMap_BuiltData851A66FC4A8B75F38A48E7BA62A70F8F.tmp' to '../../../../../GlobalGamejam2022/GGJ2022/GGJ2022Game/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2022.01.22-01.57.25:836][116]AssetCheck: New page: Asset Save: multiple assets
+[2022.01.22-01.57.25:836][116]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData
+[2022.01.22-01.57.25:837][116]LogContentValidation: Display: Validating World /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
+[2022.01.22-01.57.26:286][163]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter2)
+[2022.01.22-01.57.27:488][252]LogTemp: Repeating last play command: Selected Viewport
+[2022.01.22-01.57.27:492][252]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.01.22-01.57.27:493][252]PIE: New page: PIE session: FirstPersonExampleMap (Jan 21, 2022, 11:57:27 AM)
+[2022.01.22-01.57.27:493][252]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.01.22-01.57.27:504][252]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010916s)
+[2022.01.22-01.57.27:505][252]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2022.01.22-01.57.27:505][252]LogPlayLevel: PIE: World Init took: (0.001236s)
+[2022.01.22-01.57.27:505][252]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.012295s)
+[2022.01.22-01.57.27:536][252]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2022.01.22-01.57.27:538][252]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2022.01.22-01.57.27:538][252]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.01.22-01.57.27:538][252]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.01.22-01.57.27:538][252]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.01.22-01.57.27:538][252]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.01.22-01.57.27:538][252]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.01.22-01.57.27:538][252]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.01.22-01.57.27:538][252]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.01.22-01.57.27:538][252]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.01.22-01.57.27:538][252]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.01.22-01.57.27:538][252]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.01.22-01.57.27:538][252]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.01.22-01.57.27:538][252]LogAudioMixer: Display: Initializing audio mixer.
+[2022.01.22-01.57.27:550][252]LogAudioMixer: Display: 0: FrontLeft
+[2022.01.22-01.57.27:550][252]LogAudioMixer: Display: 1: FrontRight
+[2022.01.22-01.57.27:599][252]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2022.01.22-01.57.27:600][252]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.01.22-01.57.27:600][252]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.01.22-01.57.27:600][252]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.01.22-01.57.27:600][252]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.01.22-01.57.27:600][252]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.01.22-01.57.27:600][252]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.01.22-01.57.27:601][252]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.01.22-01.57.27:601][252]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.01.22-01.57.27:601][252]LogInit: FAudioDevice initialized.
+[2022.01.22-01.57.27:601][252]LogAudio: Display: Audio Device (ID: 15) registered with world 'FirstPersonExampleMap'.
+[2022.01.22-01.57.27:607][252]LogLoad: Game class is 'GGJ_GM_C'
+[2022.01.22-01.57.27:609][252]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2022.01.21-18.57.27
+[2022.01.22-01.57.27:610][252]LogWorld: Bringing up level for play took: 0.001829
+[2022.01.22-01.57.27:610][252]LogOnline: OSS: Creating online subsystem instance for: :Context_32
+[2022.01.22-01.57.27:612][252]PIE: Server logged in
+[2022.01.22-01.57.27:613][252]PIE: Play in editor total start time 0.121 seconds.
+[2022.01.22-01.57.27:614][252]LogAutoSettingsInput: Registering input overrides for DESKTOP-6DAELIS-FEB9
+[2022.01.22-01.57.27:615][252]LogAutoSettingsInput: Saving input overrides for DESKTOP-6DAELIS-FEB9
+[2022.01.22-01.57.33:123][827]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2022.01.22-01.57.57:089][421]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.22-01.57.57:089][421]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.01.22-01.57.57:090][421]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.01.22-01.57.57:090][421]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.22-01.57.57:101][421]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.01.22-01.57.57:177][421]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.22-01.57.57:207][421]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.22-01.57.57:208][421]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.22-01.57.57:209][421]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.22-01.57.57:217][421]LogUObjectHash: Compacting FUObjectHashTables data took   3.28ms
+[2022.01.22-01.57.57:278][422]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2022.01.22-01.57.58:254][475]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2022.01.22-01.57.59:354][475]LogSlate: Window 'Save Content' being destroyed
+[2022.01.22-01.57.59:391][475]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/Material" FILE="../../../../../GlobalGamejam2022/GGJ2022/GGJ2022Game/Content/Geometry/Meshes/Material.uasset" SILENT=true
+[2022.01.22-01.57.59:396][475]LogSavePackage: Moving '../../../../../GlobalGamejam2022/GGJ2022/GGJ2022Game/Saved/MaterialA58F0DAE4D07F93B1BA70D938856437E.tmp' to '../../../../../GlobalGamejam2022/GGJ2022/GGJ2022Game/Content/Geometry/Meshes/Material.uasset'
+[2022.01.22-01.57.59:407][475]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/Material_001" FILE="../../../../../GlobalGamejam2022/GGJ2022/GGJ2022Game/Content/Geometry/Meshes/Material_001.uasset" SILENT=true
+[2022.01.22-01.57.59:412][475]LogSavePackage: Moving '../../../../../GlobalGamejam2022/GGJ2022/GGJ2022Game/Saved/Material_0014F5687CA4F45384552279796B7E2E88A.tmp' to '../../../../../GlobalGamejam2022/GGJ2022/GGJ2022Game/Content/Geometry/Meshes/Material_001.uasset'
+[2022.01.22-01.57.59:426][475]AssetCheck: New page: Asset Save: multiple assets
+[2022.01.22-01.57.59:426][475]LogContentValidation: Display: Validating Material /Game/Geometry/Meshes/Material_001.Material_001
+[2022.01.22-01.57.59:426][475]LogContentValidation: Display: Validating Material /Game/Geometry/Meshes/Material.Material
+[2022.01.22-02.28.16:424][407]LogTemp: Repeating last play command: Selected Viewport
+[2022.01.22-02.28.16:429][407]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.01.22-02.28.16:430][407]PIE: New page: PIE session: FirstPersonExampleMap (Jan 21, 2022, 12:28:16 PM)
+[2022.01.22-02.28.16:430][407]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.01.22-02.28.16:440][407]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011569s)
+[2022.01.22-02.28.16:441][407]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2022.01.22-02.28.16:441][407]LogPlayLevel: PIE: World Init took: (0.001093s)
+[2022.01.22-02.28.16:442][407]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.012837s)
+[2022.01.22-02.28.16:480][407]LogUObjectHash: Compacting FUObjectHashTables data took   4.05ms
+[2022.01.22-02.28.16:484][407]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2022.01.22-02.28.16:484][407]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.01.22-02.28.16:484][407]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.01.22-02.28.16:484][407]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.01.22-02.28.16:484][407]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.01.22-02.28.16:484][407]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.01.22-02.28.16:484][407]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.01.22-02.28.16:484][407]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.01.22-02.28.16:484][407]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.01.22-02.28.16:485][407]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.01.22-02.28.16:485][407]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.01.22-02.28.16:485][407]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.01.22-02.28.16:485][407]LogAudioMixer: Display: Initializing audio mixer.
+[2022.01.22-02.28.16:503][407]LogAudioMixer: Display: 0: FrontLeft
+[2022.01.22-02.28.16:503][407]LogAudioMixer: Display: 1: FrontRight
+[2022.01.22-02.28.16:555][407]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2022.01.22-02.28.16:556][407]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.01.22-02.28.16:556][407]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.01.22-02.28.16:556][407]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.01.22-02.28.16:556][407]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.01.22-02.28.16:556][407]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.01.22-02.28.16:556][407]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.01.22-02.28.16:557][407]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.01.22-02.28.16:557][407]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.01.22-02.28.16:557][407]LogInit: FAudioDevice initialized.
+[2022.01.22-02.28.16:557][407]LogAudio: Display: Audio Device (ID: 16) registered with world 'FirstPersonExampleMap'.
+[2022.01.22-02.28.16:565][407]LogLoad: Game class is 'GGJ_GM_C'
+[2022.01.22-02.28.16:567][407]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2022.01.21-19.28.16
+[2022.01.22-02.28.16:567][407]LogWorld: Bringing up level for play took: 0.001520
+[2022.01.22-02.28.16:567][407]LogOnline: OSS: Creating online subsystem instance for: :Context_34
+[2022.01.22-02.28.16:570][407]PIE: Server logged in
+[2022.01.22-02.28.16:571][407]PIE: Play in editor total start time 0.143 seconds.
+[2022.01.22-02.28.16:572][407]LogAutoSettingsInput: Registering input overrides for DESKTOP-6DAELIS-A4BB
+[2022.01.22-02.28.16:572][407]LogAutoSettingsInput: Saving input overrides for DESKTOP-6DAELIS-A4BB
+[2022.01.22-02.28.19:295][689]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter2)
+[2022.01.22-02.29.18:591][109]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.22-02.29.18:591][109]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.01.22-02.29.18:591][109]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.01.22-02.29.18:591][109]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.22-02.29.18:604][109]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.01.22-02.29.18:686][109]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.22-02.29.18:714][109]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.22-02.29.18:714][109]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.22-02.29.18:715][109]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.22-02.29.18:722][109]LogUObjectHash: Compacting FUObjectHashTables data took   2.79ms
+[2022.01.22-02.29.18:760][110]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2022.01.22-02.29.42:908][435]LogTemp: Repeating last play command: Selected Viewport
+[2022.01.22-02.29.42:914][435]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.01.22-02.29.42:914][435]PIE: New page: PIE session: FirstPersonExampleMap (Jan 21, 2022, 12:29:42 PM)
+[2022.01.22-02.29.42:940][435]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.01.22-02.29.42:951][435]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010572s)
+[2022.01.22-02.29.42:951][435]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2022.01.22-02.29.42:951][435]LogPlayLevel: PIE: World Init took: (0.001362s)
+[2022.01.22-02.29.42:951][435]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.012133s)
+[2022.01.22-02.29.42:991][435]LogUObjectHash: Compacting FUObjectHashTables data took   4.24ms
+[2022.01.22-02.29.42:993][435]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2022.01.22-02.29.42:993][435]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.01.22-02.29.42:993][435]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.01.22-02.29.42:993][435]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.01.22-02.29.42:993][435]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.01.22-02.29.42:993][435]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.01.22-02.29.42:993][435]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.01.22-02.29.42:993][435]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.01.22-02.29.42:993][435]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.01.22-02.29.42:994][435]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.01.22-02.29.42:994][435]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.01.22-02.29.42:994][435]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.01.22-02.29.42:994][435]LogAudioMixer: Display: Initializing audio mixer.
+[2022.01.22-02.29.43:006][435]LogAudioMixer: Display: 0: FrontLeft
+[2022.01.22-02.29.43:006][435]LogAudioMixer: Display: 1: FrontRight
+[2022.01.22-02.29.43:060][435]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2022.01.22-02.29.43:060][435]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.01.22-02.29.43:060][435]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.01.22-02.29.43:060][435]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.01.22-02.29.43:061][435]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.01.22-02.29.43:061][435]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.01.22-02.29.43:061][435]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.01.22-02.29.43:062][435]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.01.22-02.29.43:062][435]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.01.22-02.29.43:062][435]LogInit: FAudioDevice initialized.
+[2022.01.22-02.29.43:062][435]LogAudio: Display: Audio Device (ID: 17) registered with world 'FirstPersonExampleMap'.
+[2022.01.22-02.29.43:071][435]LogLoad: Game class is 'GGJ_GM_C'
+[2022.01.22-02.29.43:073][435]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2022.01.21-19.29.43
+[2022.01.22-02.29.43:074][435]LogWorld: Bringing up level for play took: 0.001942
+[2022.01.22-02.29.43:074][435]LogOnline: OSS: Creating online subsystem instance for: :Context_35
+[2022.01.22-02.29.43:076][435]PIE: Server logged in
+[2022.01.22-02.29.43:077][435]PIE: Play in editor total start time 0.165 seconds.
+[2022.01.22-02.29.43:078][435]LogAutoSettingsInput: Registering input overrides for DESKTOP-6DAELIS-64FA
+[2022.01.22-02.29.43:079][435]LogAutoSettingsInput: Saving input overrides for DESKTOP-6DAELIS-64FA
+[2022.01.22-02.29.48:361][ 60]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.22-02.29.48:361][ 60]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.01.22-02.29.48:361][ 60]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.01.22-02.29.48:362][ 60]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.22-02.29.48:374][ 60]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.01.22-02.29.48:461][ 60]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.22-02.29.48:494][ 60]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.22-02.29.48:494][ 60]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.22-02.29.48:495][ 60]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.22-02.29.48:502][ 60]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2022.01.22-02.29.48:562][ 61]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2022.01.22-02.34.07:390][ 13]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube12)
+[2022.01.22-02.34.17:422][130]Cmd: TRANSACTION UNDO
+[2022.01.22-02.34.17:422][130]LogEditorTransaction: Undo Move Actors
+[2022.01.22-02.34.17:451][130]LogMaterial: Display: Missing cached shadermap for TestMat in PCD3D_SM5, Default, SM5 (DDC key hash: B80702EC106D9934EF2743486E3DFEC15BC9107D), compiling. 
+[2022.01.22-02.34.17:611][130]MaterialEditorStats: Texture samplers: 0/16
+[2022.01.22-02.34.17:725][132]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.01.22-02.34.17:726][132]LogShaderCompilers: Display: Total job queries 191, among them cache hits 101 (52.88%)
+[2022.01.22-02.34.17:726][132]LogShaderCompilers: Display: Tracking 80 distinct input hashes that result in 32 distinct outputs (40.00%)
+[2022.01.22-02.34.17:726][132]LogShaderCompilers: Display: RAM used: 0.19 MB (0.00 GB) of 1228.80 MB (1.20 GB) budget. Usage: 0.02%
+[2022.01.22-02.34.17:726][132]LogShaderCompilers: Display: ================================================
+[2022.01.22-02.34.17:762][133]MaterialEditorStats: Base pass shader: 119 instructions
+[2022.01.22-02.34.17:762][133]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
+[2022.01.22-02.34.17:762][133]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.01.22-02.34.17:762][133]MaterialEditorStats: Texture samplers: 2/16
+[2022.01.22-02.34.23:177][715]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/TestMat_Inst" FILE="../../../../../GlobalGamejam2022/GGJ2022/GGJ2022Game/Content/Materials/TestMat_Inst.uasset" SILENT=true
+[2022.01.22-02.34.23:212][715]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2022.01.22-02.34.23:244][715]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2022.01.22-02.34.23:246][715]LogSavePackage: Moving '../../../../../GlobalGamejam2022/GGJ2022/GGJ2022Game/Saved/TestMat_Inst9F05A91D47198EB88CFBF1A3EA597F7B.tmp' to '../../../../../GlobalGamejam2022/GGJ2022/GGJ2022Game/Content/Materials/TestMat_Inst.uasset'
+[2022.01.22-02.34.23:262][715]AssetCheck: New page: Asset Save: TestMat_Inst
+[2022.01.22-02.34.23:263][715]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/Materials/TestMat_Inst.TestMat_Inst
+[2022.01.22-02.34.48:811][882]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2022.01.22-02.34.48:813][882]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap' took 0.034
