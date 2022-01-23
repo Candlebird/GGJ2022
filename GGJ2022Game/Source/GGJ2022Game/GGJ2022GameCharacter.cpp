@@ -66,24 +66,24 @@ AGGJ2022GameCharacter::AGGJ2022GameCharacter()
 	L_MotionController = CreateDefaultSubobject<UMotionControllerComponent>(TEXT("L_MotionController"));
 	L_MotionController->SetupAttachment(RootComponent);
 
-	// Create a gun and attach it to the right-hand VR controller.
-	// Create a gun mesh component
-	VR_Gun = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("VR_Gun"));
-	VR_Gun->SetOnlyOwnerSee(false);			// otherwise won't be visible in the multiplayer
-	VR_Gun->bCastDynamicShadow = false;
-	VR_Gun->CastShadow = false;
-	VR_Gun->SetupAttachment(R_MotionController);
-	VR_Gun->SetRelativeRotation(FRotator(0.0f, -90.0f, 0.0f));
+// Create a gun and attach it to the right-hand VR controller.
+// Create a gun mesh component
+VR_Gun = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("VR_Gun"));
+VR_Gun->SetOnlyOwnerSee(false);			// otherwise won't be visible in the multiplayer
+VR_Gun->bCastDynamicShadow = false;
+VR_Gun->CastShadow = false;
+VR_Gun->SetupAttachment(R_MotionController);
+VR_Gun->SetRelativeRotation(FRotator(0.0f, -90.0f, 0.0f));
 
-	VR_MuzzleLocation = CreateDefaultSubobject<USceneComponent>(TEXT("VR_MuzzleLocation"));
-	VR_MuzzleLocation->SetupAttachment(VR_Gun);
-	VR_MuzzleLocation->SetRelativeLocation(FVector(0.000004, 53.999992, 10.000000));
-	VR_MuzzleLocation->SetRelativeRotation(FRotator(0.0f, 90.0f, 0.0f));		// Counteract the rotation of the VR gun model.
+VR_MuzzleLocation = CreateDefaultSubobject<USceneComponent>(TEXT("VR_MuzzleLocation"));
+VR_MuzzleLocation->SetupAttachment(VR_Gun);
+VR_MuzzleLocation->SetRelativeLocation(FVector(0.000004, 53.999992, 10.000000));
+VR_MuzzleLocation->SetRelativeRotation(FRotator(0.0f, 90.0f, 0.0f));		// Counteract the rotation of the VR gun model.
 
-	// Uncomment the following line to turn motion controllers on by default:
-	//bUsingMotionControllers = true;
+// Uncomment the following line to turn motion controllers on by default:
+//bUsingMotionControllers = true;
 
-	Health = 3;
+Health = 3;
 }
 
 void AGGJ2022GameCharacter::BeginPlay()
@@ -120,7 +120,8 @@ void AGGJ2022GameCharacter::SetupPlayerInputComponent(class UInputComponent* Pla
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
 
 	// Bind fire event
-	PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &AGGJ2022GameCharacter::OnFire);
+	PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &AGGJ2022GameCharacter::StartFire);
+	PlayerInputComponent->BindAction("Fire", IE_Released, this, &AGGJ2022GameCharacter::StopFire);
 
 	// Enable touchscreen input
 	EnableTouchscreenMovement(PlayerInputComponent);
@@ -140,34 +141,42 @@ void AGGJ2022GameCharacter::SetupPlayerInputComponent(class UInputComponent* Pla
 	PlayerInputComponent->BindAxis("LookUpRate", this, &AGGJ2022GameCharacter::LookUpAtRate);
 }
 
-void AGGJ2022GameCharacter::OnFire()
+void AGGJ2022GameCharacter::StartFire()
 {
-	// try and fire a projectile
-	if (ProjectileClass != nullptr)
+	FireShot();
+	GetWorldTimerManager().SetTimer(TimerHandle_HandleRefire, this, &AGGJ2022GameCharacter::FireShot, TimeBetweenShots, true);
+}
+
+void AGGJ2022GameCharacter::StopFire()
+{
+	GetWorldTimerManager().ClearTimer(TimerHandle_HandleRefire);
+}
+
+void AGGJ2022GameCharacter::FireShot()
+{
+	FHitResult Hit;
+	const float WeaponRange = 20000.f;
+
+	const FVector StartTrace = FirstPersonCameraComponent->GetComponentLocation();
+	const FVector EndTrace = (FirstPersonCameraComponent->GetForwardVector() * WeaponRange) + StartTrace;
+
+	FCollisionQueryParams QueryParams = FCollisionQueryParams(SCENE_QUERY_STAT(WeaponTrace), false, this);
+
+	if (GetWorld()->LineTraceSingleByChannel(Hit, StartTrace, EndTrace, ECC_Camera, QueryParams))
 	{
-		UWorld* const World = GetWorld();
-		if (World != nullptr)
+		if (Hit.Actor->ActorHasTag(FName("Enemy")))
 		{
-			if (bUsingMotionControllers)
-			{
-				const FRotator SpawnRotation = VR_MuzzleLocation->GetComponentRotation();
-				const FVector SpawnLocation = VR_MuzzleLocation->GetComponentLocation();
-				World->SpawnActor<AGGJ2022GameProjectile>(ProjectileClass, SpawnLocation, SpawnRotation);
-			}
-			else
-			{
-				const FRotator SpawnRotation = GetControlRotation();
-				// MuzzleOffset is in camera space, so transform it to world space before offsetting from the character location to find the final muzzle position
-				const FVector SpawnLocation = ((FP_MuzzleLocation != nullptr) ? FP_MuzzleLocation->GetComponentLocation() : GetActorLocation()) + SpawnRotation.RotateVector(GunOffset);
-
-				//Set Spawn Collision Handling Override
-				FActorSpawnParameters ActorSpawnParams;
-				ActorSpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AdjustIfPossibleButDontSpawnIfColliding;
-
-				// spawn the projectile at the muzzle
-				World->SpawnActor<AGGJ2022GameProjectile>(ProjectileClass, SpawnLocation, SpawnRotation, ActorSpawnParams);
-			}
+			Hit.Actor->Destroy();
 		}
+		else if (ImpactParticles)
+		{	
+			UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), ImpactParticles, FTransform(Hit.ImpactNormal.Rotation(), Hit.ImpactPoint));
+		}
+	}
+
+	if (MuzzleParticles)
+	{
+		UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), MuzzleParticles, FP_Gun->GetSocketTransform(FName("Muzzle")));
 	}
 
 	// try and play the sound if specified
@@ -201,7 +210,7 @@ void AGGJ2022GameCharacter::BeginTouch(const ETouchIndex::Type FingerIndex, cons
 	}
 	if ((FingerIndex == TouchItem.FingerIndex) && (TouchItem.bMoved == false))
 	{
-		OnFire();
+		FireShot();
 	}
 	TouchItem.bIsPressed = true;
 	TouchItem.FingerIndex = FingerIndex;

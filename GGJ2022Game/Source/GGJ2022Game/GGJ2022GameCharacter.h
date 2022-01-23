@@ -82,6 +82,18 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
 	UAnimMontage* FireAnimation;
 
+	/** Time duration between each shot */
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
+	float TimeBetweenShots = 0.3f;
+
+	/** Time duration between each shot */
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
+	class UParticleSystem* MuzzleParticles;
+
+	/** Time duration between each shot */
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
+	class UParticleSystem* ImpactParticles;
+
 	/** Whether to use motion controller location for aiming. */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
 	uint8 bUsingMotionControllers : 1;
@@ -92,8 +104,16 @@ public:
 
 protected:
 	
+	/** Starts fire squence. */
+	void StartFire();
+
+	/** Stops fire squence. */
+	void StopFire();
+
 	/** Fires a projectile. */
-	void OnFire();
+	void FireShot();
+
+	FTimerHandle TimerHandle_HandleRefire;
 
 	/** Resets HMD orientation and position in VR. */
 	void OnResetVR();
