@@ -5,7 +5,9 @@
 #include "Animation/AnimInstance.h"
 #include "Camera/CameraComponent.h"
 #include "Components/CapsuleComponent.h"
+#include "Components/DecalComponent.h"
 #include "Components/InputComponent.h"
+#include "Engine/DecalActor.h"
 #include "GameFramework/InputSettings.h"
 #include "HeadMountedDisplayFunctionLibrary.h"
 #include "Kismet/GameplayStatics.h"
@@ -168,9 +170,12 @@ void AGGJ2022GameCharacter::FireShot()
 		{
 			Hit.Actor->Destroy();
 		}
-		else if (ImpactParticles)
+		else if (ImpactDecal)
 		{	
-			UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), ImpactParticles, FTransform(Hit.ImpactNormal.Rotation(), Hit.ImpactPoint));
+			FRotator RandomDecalRotation = Hit.ImpactNormal.Rotation();
+			RandomDecalRotation.Roll = FMath::FRandRange(-180.0f, 180.0f);
+			UDecalComponent* Decal = UGameplayStatics::SpawnDecalAttached(ImpactDecal, FVector(1.0f, BulletImpactSize, BulletImpactSize), Hit.Component.Get(), Hit.BoneName, Hit.ImpactPoint, RandomDecalRotation, EAttachLocation::KeepWorldPosition, BulletImpactDuration);
+			Decal->SetFadeScreenSize(0.0f);
 		}
 	}
 
@@ -192,7 +197,7 @@ void AGGJ2022GameCharacter::FireShot()
 		UAnimInstance* AnimInstance = Mesh1P->GetAnimInstance();
 		if (AnimInstance != nullptr)
 		{
-			AnimInstance->Montage_Play(FireAnimation, 1.f);
+			AnimInstance->Montage_Play(FireAnimation, BulletImpactDuration);
 		}
 	}
 }
