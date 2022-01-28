@@ -10,7 +10,7 @@
 AGGJ2022GameHUD::AGGJ2022GameHUD()
 {
 	// Set the crosshair texture
-	static ConstructorHelpers::FObjectFinder<UTexture2D> CrosshairTexObj(TEXT("/Game/FirstPerson/Textures/FirstPersonCrosshair"));
+	static ConstructorHelpers::FObjectFinder<UTexture2D> CrosshairTexObj(TEXT("/Game/FirstPerson/Textures/Crosshair"));
 	CrosshairTex = CrosshairTexObj.Object;
 }
 
@@ -29,7 +29,7 @@ void AGGJ2022GameHUD::DrawHUD()
 										   (Center.Y - 8.0f));
 
 	// draw the crosshair
-	FCanvasTileItem TileItem( CrosshairDrawPosition, CrosshairTex->Resource, FLinearColor::White);
-	TileItem.BlendMode = SE_BLEND_Translucent;
-	Canvas->DrawItem( TileItem );
+	//FCanvasTileItem TileItem( CrosshairDrawPosition, CrosshairTex->Resource, FLinearColor::White);
+	//TileItem.BlendMode = SE_BLEND_Translucent;
+	//Canvas->DrawItem( TileItem );
 }
