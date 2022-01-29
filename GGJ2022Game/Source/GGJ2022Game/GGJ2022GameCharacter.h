@@ -82,6 +82,26 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
 	UAnimMontage* FireAnimation;
 
+	/** Time duration between each shot */
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
+	float TimeBetweenShots = 0.3f;
+
+	/** Gun Muzzle Particles */
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
+	class UParticleSystem* MuzzleParticles;
+
+	/** Bullet Impact Decal */
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
+	class UMaterialInterface* ImpactDecal;
+
+	/** Size of Bullet Decal Impact */
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
+	float BulletImpactSize = 5.0f;
+
+	/** How long until despawn */
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
+	float BulletImpactDuration = 10.0f;
+
 	/** Whether to use motion controller location for aiming. */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
 	uint8 bUsingMotionControllers : 1;
@@ -92,8 +112,16 @@ public:
 
 protected:
 	
+	/** Starts fire squence. */
+	void StartFire();
+
+	/** Stops fire squence. */
+	void StopFire();
+
 	/** Fires a projectile. */
-	void OnFire();
+	void FireShot();
+
+	FTimerHandle TimerHandle_HandleRefire;
 
 	/** Resets HMD orientation and position in VR. */
 	void OnResetVR();
