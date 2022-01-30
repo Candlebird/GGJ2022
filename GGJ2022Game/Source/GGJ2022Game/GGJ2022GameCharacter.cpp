@@ -197,7 +197,7 @@ void AGGJ2022GameCharacter::FireShot()
 		UAnimInstance* AnimInstance = Mesh1P->GetAnimInstance();
 		if (AnimInstance != nullptr)
 		{
-			AnimInstance->Montage_Play(FireAnimation, BulletImpactDuration);
+			AnimInstance->Montage_Play(FireAnimation, 1.f);
 		}
 	}
 }
