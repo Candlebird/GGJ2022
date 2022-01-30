@@ -164,6 +164,8 @@ void AGGJ2022GameCharacter::FireShot()
 
 	FCollisionQueryParams QueryParams = FCollisionQueryParams(SCENE_QUERY_STAT(WeaponTrace), false, this);
 
+	PlayerFire.Broadcast();
+
 	if (GetWorld()->LineTraceSingleByChannel(Hit, StartTrace, EndTrace, ECC_Camera, QueryParams))
 	{
 		if (Hit.Actor->ActorHasTag(FName("Enemy")))

@@ -14,6 +14,8 @@ class UMotionControllerComponent;
 class UAnimMontage;
 class USoundBase;
 
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FOnPlayerFire);
+
 UCLASS(config=Game)
 class AGGJ2022GameCharacter : public ACharacter
 {
@@ -109,6 +111,9 @@ public:
 	/** Used for storing health values */
 	UPROPERTY(VisibleAnywhere, Category = "Variables")
 	int Health;
+
+	UPROPERTY(BlueprintAssignable, Category = "EventDispatchers")
+	FOnPlayerFire PlayerFire;
 
 protected:
 	
